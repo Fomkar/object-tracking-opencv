@@ -57,3 +57,4 @@ while (not q_pressed):
     if cv2.waitKey(1) & 0xFF == ord('q'):
         q_pressed = True
         break
+cv2.destroyAllWindows()
